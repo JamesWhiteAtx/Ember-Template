@@ -231,6 +231,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\templates\todoLists.hbs.js">
+      <DependentUpon>todoLists.hbs</DependentUpon>
+    </Content>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -296,9 +299,11 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\ember-1.10.0.debug.js" />
     <Content Include="Scripts\ember-data.js" />
     <Content Include="Scripts\ember-data.min.js" />
     <Content Include="Scripts\ember-data.prod.js" />
+    <Content Include="Scripts\ember-template-compiler-1.10.0.js" />
     <Content Include="Scripts\ember.js" />
     <Content Include="Scripts\ember.min.js" />
     <Content Include="Scripts\ember.prod.js" />

@@ -49,7 +49,9 @@ namespace Ember_Template
             }
             bundles.Add(new ScriptBundle("~/bundles/ember").Include(
                 "~/scripts/handlebars.js",
-                "~/scripts/ember.js",
+                //"~/scripts/ember.js",
+                "~/scripts/ember-1.10.0.debug.js",
+                "~/scripts/ember-template-compiler-1.10.0.js",
                 "~/scripts/ember-data.js",
                 "~/app/webapi_serializer.js",
                 "~/app/webapi_adapter.js"
