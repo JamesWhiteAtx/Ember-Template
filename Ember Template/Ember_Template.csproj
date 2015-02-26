@@ -231,6 +231,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\controllers\file2.js" />
+    <Content Include="App\controllers\indexController.js" />
+    <Content Include="App\controllers\JavaScript1.js" />
+    <Content Include="App\components\comps.js" />
+    <None Include="App\templates\components\button-group-cmp.hbs" />
     <Content Include="App\templates\todoLists.hbs.js">
       <DependentUpon>todoLists.hbs</DependentUpon>
     </Content>
@@ -307,7 +312,6 @@
     <Content Include="Scripts\ember.js" />
     <Content Include="Scripts\ember.min.js" />
     <Content Include="Scripts\ember.prod.js" />
-    <Content Include="Scripts\file1.js" />
     <Content Include="Scripts\handlebars.amd.js" />
     <Content Include="Scripts\handlebars.amd.min.js" />
     <Content Include="Scripts\handlebars.js" />
@@ -335,6 +339,10 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="App\templates\components\level-1.hbs" />
+    <Content Include="App\templates\components\level-2.hbs" />
+    <Content Include="App\templates\components\level-3.hbs" />
+    <Content Include="App\templates\components\button-cmp.hbs" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -426,7 +434,8 @@
     <Content Include="App_Readme\Handlebarsjs_LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\file1.ts" />
+    <TypeScriptCompile Include="App\controllers\file1.ts" />
+    <TypeScriptCompile Include="App\controllers\file2.ts" />
     <TypeScriptCompile Include="Scripts\typings\ember\ember.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\handlebars\handlebars.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />

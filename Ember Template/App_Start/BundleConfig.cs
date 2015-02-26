@@ -69,6 +69,7 @@ namespace Ember_Template
                  .IncludeDirectory("~/app/models", "*.js")
                  .IncludeDirectory("~/app/views", "*.js")
                  .IncludeDirectory("~/app/controllers", "*.js")
+                 .IncludeDirectory("~/app/components", "*.js")
             );
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
